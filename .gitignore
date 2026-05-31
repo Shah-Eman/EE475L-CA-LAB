@@ -15,3 +15,8 @@ obj_dir/
 
 # Draw.io backups
 *.bkp
+*.dtmp
+
+# Local dev / not for submission
+tools/
+main.pdf
