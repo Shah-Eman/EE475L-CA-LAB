@@ -1,0 +1,17 @@
+# QuestaSim / simulation artifacts
+work/
+transcript
+vsim.wlf
+*.wlf
+
+# Verilator build output
+obj_dir/
+*.d
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Draw.io backups
+*.bkp

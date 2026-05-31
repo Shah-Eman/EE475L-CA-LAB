@@ -1,0 +1,52 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Figure 5.1" id="lab5-immediate-generator">
+    <mxGraphModel dx="706" dy="632" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="400" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oval" value="&lt;b&gt;Imm gen&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="80" width="100" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="in_arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="in_slash" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="172" as="sourcePoint" />
+            <mxPoint x="232" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="in_width" value="32" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="205" y="125" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="in_label" value="instruction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="195" y="168" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="out_arrow" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;endFill=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="620" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="out_slash" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="508" y="172" as="sourcePoint" />
+            <mxPoint x="530" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="out_width" value="32" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="503" y="125" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="out_label" value="immediate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="493" y="168" width="90" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="caption" value="Figure: Immediate Generator Block Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=13;fontFamily=Times New Roman;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="175" y="270" width="500" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
