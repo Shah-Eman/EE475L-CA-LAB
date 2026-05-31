@@ -44,8 +44,9 @@ vsim -c -novopt cpu_tb -do "run -all; quit"
 ```
 
 ## Authors
-
-Shah Eman — 2023-EE-178
+```
+Shah Eman — 2023-EE-178 
 Huzaifa Kashif — 2023-EE-177
 Zain Haider — 
-Ali Ahmed — 
+Ali Ahmed —
+```
