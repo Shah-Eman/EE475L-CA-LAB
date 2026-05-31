@@ -25,7 +25,7 @@ Each lab keeps **RTL** and **testbench** in separate folders.
 | 03–04 | ALU & controllers in SV | `alu_tb`, `alu_controller_tb`, … |
 | 05 | Immediate generator | `imm_gen_tb` |
 | 06 | R & I-type CPU (Part 1) | `lab6_tb.sv` (14 tests) |
-| 07 | S/B/J/U-type CPU (Part 2) | `mycpu_tb.sv` (22 tests, professor) |
+| 07 | S/B/J/U-type CPU (Part 2) | `mycpu_tb.sv` (22 tests) |
 
 ## Quick simulation
 
@@ -45,4 +45,7 @@ vsim -c -novopt cpu_tb -do "run -all; quit"
 
 ## Authors
 
-Shah Eman — EE-475L Spring 2026
+Shah Eman — 2023-EE-178
+Huzaifa Kashif — 2023-EE-177
+Zain Haider — 
+Ali Ahmed — 
