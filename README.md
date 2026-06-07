@@ -15,7 +15,8 @@ RISC-V RV32I processor design labs (UET Lahore, Spring 2026).
 ├── Lab07/rtl/ + tb/      # Single-cycle CPU — S, B, J, U type (Part 2)
 ├── Lab08/rtl/ + tb/      # 3-stage pipelined CPU
 ├── Lab09/docs/           # Hazard analysis (no RTL)
-└── Lab10/rtl/ + tb/      # Pipeline with forwarding + load-use stall
+├── Lab10/rtl/ + tb/      # Pipeline with forwarding + load-use stall
+└── Lab11/rtl/ + tb/      # Insertion sort + seven-segment display (FPGA)
 ```
 
 Each lab keeps **RTL** and **testbench** in separate folders.
@@ -32,6 +33,7 @@ Each lab keeps **RTL** and **testbench** in separate folders.
 | 08 | 3-stage pipelined CPU | `lab8_tb.sv` (7 tests) |
 | 09 | Pipeline hazard analysis | docs only (no RTL) |
 | 10 | Hazard resolution (forward + stall) | `lab10_tb.sv` (8 tests) |
+| 11 | Insertion sort + 7-seg display (FPGA) | `insertion_sort_tb.sv`, `lab11_top_tb.sv` |
 
 ## Quick simulation
 
@@ -63,10 +65,17 @@ vlog -sv +incdir+../include rtl/*.sv tb/lab10_tb.sv
 vsim -c -novopt cpu_tb -do "run -all; quit"
 ```
 
+**Lab 11:**
+```tcl
+cd Lab11
+vsim -do run.do                              ;# insertion-sort verification
+vsim -do "set TB lab11_top_tb; do run.do"    ;# processor + display integration
+```
+
 ## Authors
 ```
 Shah Eman — 2023-EE-178 
 Huzaifa Kashif — 2023-EE-177
-Zain Haider — 
-Ali Ahmed —
+Zain Haider — 2023-EE-030 
+Ali Ahmed — 2023-EE-029
 ```
